@@ -14,6 +14,6 @@ Route::get('/test/work',function(){
 
 Route::get('/another',function(){
 
-    return "another";
+    return "anotherpacakge";
 
 });
