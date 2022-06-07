@@ -5,9 +5,16 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {},
-    "AutoLoad":{
+    "autoload":{
         "psr-4":{
-            "RandomPackage\\Random":"src/"
+            "RandomPackage\\Random\\":"src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "RandomPackage\\Random\\RandomServiceProvider\\"
+            ]
         }
     }
 }
