@@ -1,0 +1,13 @@
+{
+    "name": "randompack/radompackage",
+    "description": "it is a random package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "AutoLoad":{
+        "psr-4":{
+            "RandomPackage\\Random":"src/"
+        }
+    }
+}
