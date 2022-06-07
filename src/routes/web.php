@@ -11,3 +11,9 @@ Route::get('/test/work',function(){
     return "work";
 
 });
+
+Route::get('/another',function(){
+
+    return "another";
+
+});
