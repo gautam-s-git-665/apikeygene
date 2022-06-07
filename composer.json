@@ -13,7 +13,7 @@
     "extra":{
         "laravel":{
             "providers":[
-                "RandomPackage\\Random\\RandomServiceProvider\\"
+                "RandomPackage\\Random\\RandomServiceProvider"
             ]
         }
     }
